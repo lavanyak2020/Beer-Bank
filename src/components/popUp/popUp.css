@@ -1,0 +1,122 @@
+.popup-container {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 48%;
+    height: 94%;
+    margin-top: 1%;
+    padding: 1%;
+    overflow: scroll;
+}
+
+.popup-cancel-button {
+    align-self: flex-end;
+}
+.popup-beer-details {
+    padding: 2%;
+    display: flex;
+    height: 70%;
+    margin-bottom: 0;
+}
+
+.popup-beer-image {
+    width: 25%;
+}
+
+.popup-beer-data {
+    width: 70%;
+    color: rgb(145, 145, 145);
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-beer-data > * {
+    margin-top: 4%;
+    font-size: 20px;
+    line-height: 32px;
+
+}
+
+.popup-beer-name {
+    color: rgb(234,152, 54);
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.popup-beer-tagline {
+    font-size: 24px;
+    color: rgb(191, 189, 189);
+    margin-top: 2%;
+}
+
+.popup-line {
+    background: rgb(166, 72, 150);
+    margin-top: 4%;
+    width: 20%;
+    height: 1%;
+}
+
+.popup-beer-values {
+    display: flex;
+}
+
+.popup-beer-values > * {
+    margin-left: 24px;
+}
+.beer-ibu {
+    margin-left: 0;
+}
+
+.popup-beer-served-with ul {
+    margin-top: 0%;
+}
+
+.similar-items {
+    margin-top: 0;
+    width: 100%;
+    padding: 2%;
+}
+
+.similar-items h1 {
+    margin-top: 0;
+    color: rgb(234,152, 54);
+}
+.similar-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 0;
+}
+
+.similar-items-container .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    border: 1px solid rgb(145, 145, 145);
+    padding: 1%;
+}
+
+.similar-items-container .item img {
+    height: 50%;
+    width: 40%;
+}
+.similar-items-container .item span {
+    color: rgb(145, 145, 145);
+    margin-top: 10%;
+    font-size: 24px;
+    font-weight: 800;
+}

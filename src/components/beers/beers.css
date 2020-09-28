@@ -1,0 +1,30 @@
+.beers-container {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.beers-container > * {
+    margin:  20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .beers-container {
+        width: 84vw;
+    }
+
+    .beers-container > * {
+        margin:  20px 0;
+    }
+}
+
+@media screen and (max-width: 36px) {
+    .beers-container {
+        width: 100vw;
+    }
+
+    .beers-container > * {
+        margin:  20px 0;
+    }
+}

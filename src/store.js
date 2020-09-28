@@ -1,0 +1,5 @@
+{
+    searchText: "",
+    isFetching: false,
+    beersData: []
+}
